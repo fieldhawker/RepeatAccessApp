@@ -17,6 +17,8 @@ from selenium import webdriver
 
 # windowが閉じない場合はchromedriver.exeを最新に更新してみる
 
+now = datetime.datetime.now()
+
 LOG_LEVEL = 'INFO'
 
 logging.basicConfig(
@@ -24,6 +26,10 @@ logging.basicConfig(
     format='%(asctime)s [%(levelname)s] %(module)s | %(message)s',
     datefmt='%Y/%m/%d %H:%M:%S',
 )
+logfile=logging.FileHandler("logs/" + "application_log_{0:%Y%m%d}.txt".format(now), "a");
+logfile.setLevel(logging.INFO)
+logging.getLogger('').addHandler(logfile)
+
 logger = logging.getLogger(__name__)
 
 
@@ -57,7 +63,6 @@ def main():
     # 出力ファイルを開く
     # --------------------------
 
-    now = datetime.datetime.now()
     export_file_name = "result_reqeat_access_{0:%Y%m%d-%H%M%S}.txt".format(now)
 
     logger.info("RepeatAccessApp --- start ---")
