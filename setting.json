@@ -1,0 +1,21 @@
+{
+    "browser": "Chrome",
+    "browsers": [
+        "Chrome"
+    ],
+    "urls": [
+        "http://ozuma.sakura.ne.jp/httpstatus/500",
+        "http://ozuma.sakura.ne.jp/httpstatus/404",
+        "https://www.gowwwogle.co.jp/",
+        "https://www.google.co.jp/"
+    ],
+    "request_sleep_second": 1,
+    "loop_count": 2,
+    "loop_sleep_second": 6,
+    "urls_backup": [
+        "http://ozuma.sakura.ne.jp/httpstatus/500",
+        "http://ozuma.sakura.ne.jp/httpstatus/404",
+        "https://www.gowwwogle.co.jp/",
+        "https://www.google.co.jp/"
+    ]
+}

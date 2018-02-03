@@ -1,0 +1,13 @@
+.idea
+build/RepeatAccessApp/base_library.zip
+build/RepeatAccessApp/RepeatAccessApp.exe.manifest
+__pycache__/RepeatAccessApp.cpython-36.pyc
+RepeatAccessApp.spec
+build/RepeatAccessApp/xref-RepeatAccessApp.html
+build/RepeatAccessApp/warnRepeatAccessApp.txt
+build/RepeatAccessApp/out00-PYZ.toc
+build/RepeatAccessApp/out00-PYZ.pyz
+build/RepeatAccessApp/out00-PKG.toc
+build/RepeatAccessApp/out00-PKG.pkg
+build/RepeatAccessApp/out00-EXE.toc
+build/RepeatAccessApp/out00-Analysis.toc
